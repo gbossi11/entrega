@@ -1,0 +1,236 @@
+/* CARD */
+
+.card-container {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 240px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-container h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card-container img {
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.card-price {
+  margin: 8px 0;
+  color: #ff4d4f;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-description {
+  margin: 8px 0;
+  color: #666;
+  text-align: center;
+}
+
+.card-container .ant-btn-primary {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: auto;
+}
+
+/* HEADERTOP */
+
+.header-top {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* NAV */
+
+.nav-container {
+  display: flex;
+  background-color: #333;
+  padding: 5px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-container ul li {
+  float: left;
+  line-height: 40px;
+}
+
+.nav-container ul li:not(:last-child) {
+  margin-right: 20px; /* Espacio entre los elementos de navegación */
+}
+
+.nav-container ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+.nav-container ul li a:hover {
+  background-color: #111;
+}
+
+.nav-container .nav-item {
+  float: right; /* Alinea el carrito a la derecha */
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+.nav-container .nav-item a {
+  color: white;
+}
+
+.logo-img {
+  float: left;
+  width: 100px;
+  height: auto;
+  display: block;
+  background-color: transparent;
+}
+
+/* FOOTER */
+
+footer {
+  background: #222; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo-img-footer {
+  width: 120px;
+  height: auto;
+  background-color: transparent;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-subscribe h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.footer-subscribe form {
+  display: flex;
+}
+
+.footer-subscribe input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  flex: 1;
+}
+
+.footer-subscribe button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #00b96b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+/*estilos para los filtros */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilos personalizados para el botón de filtro del Collapse */
+.ant-collapse-header {
+  color: white !important;
+}
+
+.color-carrito {
+  color: black;
+}
+
+/* carrito */
+
+.checkout-summary {
+  margin-bottom: 16px;
+}
+
+.checkout-summary h3 {
+  margin-bottom: 8px;
+}
+
+.titulo-negro-carrito {
+  font-weight: bold;
+  color: black;
+}
+
+/* HEADER MID */
+
+.header-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #000000;
+  padding: 10px;
+  margin: 0; /* Asegúrate de que el margen del contenedor sea 0 */
+}
+
+.logo-img {
+  max-height: 50px;
+  object-fit: contain;
+  display: block; /* Elimina el espacio extra debajo de la imagen */
+  margin-top: 35px;
+  width: 150px;
+}

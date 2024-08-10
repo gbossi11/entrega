@@ -1,0 +1,200 @@
+#root {
+  height: 100vh;
+}
+
+.home-container {
+  height: 100vh;
+}
+.about-container {
+  height: 100vh;
+}
+.account-container {
+  height: 100vh;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+  list-style-type: none; /* Elimina los puntos */
+}
+
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+.propductos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+}
+
+.margin-center-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-container {
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+
+.about-header {
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.about-content p strong {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+}
+
+/* ADMIN */
+
+.agregar-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editar-productos {
+  padding: 20px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.edit-button {
+  margin-left: 10px;
+}
+
+.delete-button {
+  margin-left: 10px;
+}
+
+.button-account {
+  margin: 10px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ADMIN */
+
+.button-create {
+  margin: 20px;
+}
+
+.button-container-admin {
+  text-align: center;
+}
+
+.item-admin {
+  color: white;
+}
+
+.title-list-products {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-background {
+  background-color: rgb(27, 27, 27);
+}
+
+/* login */
+
+.login-container {
+  margin: 20px;
+}
+
+/* login y register */
+.label-white {
+  color: white;
+}
+
+/* register */
+
+.register-container {
+  margin: 20px;
+}
+
+/* account */
+
+.titulo-account {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  margin: 5px;
+}
